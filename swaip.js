@@ -219,7 +219,7 @@ const server = http.createServer((req, res) => {
                         }
                     </script>
                     <div class="footer">
-                        <p>API calls: N/A (now counted per request) | Cache entries: ${stats.cacheSize} | Errors: ${stats.erros}</p>
+                        <p>API calls: 0 | Cache entries: ${stats.cacheSize} | Errors: ${stats.erros}</p>
                         <pre>Debug mode: ${config.debug ? 'ON' : 'OFF'} | Timeout: ${config.timeout}ms</pre>
                     </div>
                 </body>
